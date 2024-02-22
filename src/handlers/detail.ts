@@ -46,7 +46,7 @@ const getNaverShoppingDetail = async (
 		await page.emulateMedia({ media: "screen" });
 		await page.goto(url);
 
-		await page.waitForLoadState("domcontentloaded");
+		await page.waitForLoadState("networkidle");
 
 		const headLocator = page.locator('script[data-react-helmet="true"]');
 		const introduce = page.locator("div#INTRODUCE");

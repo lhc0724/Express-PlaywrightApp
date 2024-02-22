@@ -1,1 +1,1 @@
-export { default as getNaverShoppingDetail } from "./nssDetail";
+export { default as getNaverShoppingDetail } from "./detail";
