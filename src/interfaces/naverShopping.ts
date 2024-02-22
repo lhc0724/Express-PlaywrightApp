@@ -21,4 +21,11 @@ interface productDetail {
 	contentHtml: string;
 }
 
-export { productDetail, naverCategory };
+interface productList {
+	thumbnail: string;
+	title: string;
+	price: string;
+	url: string;
+}
+
+export { productDetail, naverCategory, productList };
